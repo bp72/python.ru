@@ -11,4 +11,6 @@ DATABASES = {
     }
 }
 db_from_env = dj_database_url.config(conn_max_age=500)
+print(db_from_env)
+print(BASE_DIR)
 DATABASES['default'].update(db_from_env)

@@ -1,8 +1,8 @@
-from django.conf.urls import url
+from django.urls import path
 
 from . import views
 
 
 urlpatterns = [
-    url(r'^(?P<event_slug>\w+)/$', views.EventDetailView.as_view(), name='event_detail_view'),
+    path(r'^(?P<event_slug>\w+)/$', views.EventDetailView.as_view(), name='event_detail_view'),
 ]

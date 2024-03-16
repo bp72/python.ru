@@ -3,3 +3,6 @@ statci/
 Dockerfile
 fabfile.py
 requirements-deploy.txt
+.github/
+.venv/
+.vscode/

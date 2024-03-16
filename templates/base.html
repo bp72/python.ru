@@ -1,4 +1,4 @@
-{% load staticfiles %}
+{% load static %}
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -39,7 +39,7 @@
 <body>
   <div id="wrapper">
     <div class="w1">
-    {% load staticfiles nginx_image %}
+    {% load static nginx_image %}
       {% block header_block %}
         {% include 'blocks/header.html' %}
       {% endblock %}

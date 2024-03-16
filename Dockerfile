@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster as base
+FROM python:3.11.8-slim-bookworm as base
 
 ENV PYTHONUNBUFFERED 1
 ENV DEBIAN_FRONTEND=noninteractive
